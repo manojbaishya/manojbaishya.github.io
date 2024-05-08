@@ -1,0 +1,7 @@
+baseURL = 'https://manojbaishya.github.io/'
+languageCode = 'en-IN'
+title = "Manoj Baishya's Writings"
+theme = 'holy'
+
+[params]
+copyright = '© 2024 Manoj Baishya'
