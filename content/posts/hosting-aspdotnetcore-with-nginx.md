@@ -1,7 +1,7 @@
 +++
 title = 'Hosting ASP.NET Core With Nginx on Fedora Server 40'
 date = 2024-05-08T14:56:37+05:30
-draft = true
+draft = false
 +++
 
 ## Introduction
