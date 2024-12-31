@@ -1,4 +1,98 @@
-baseURL = 'https://manojbaishya.github.io'
-languageCode = 'en-us'
+baseURL = 'https://manojbaishya.github.io/'
 title = "Manoj Baishya's Writings"
+languageCode = 'en-us'
 theme = 'ink-free'
+paginate = 5
+copyright = "Copyright © 2025 Manoj Baishya. All rights reserved." 
+
+[permalinks]
+  posts = "/:year/:month/:title"
+
+[params]
+    subtitle = "My thoughts on technology, business, wellbeing and life."
+
+    # Optional 64x64 avatar image.
+    avatar = "https://0.gravatar.com/avatar/558dc81840f316510101655712e914fac8a444e42784e87c8b99e41c80efa440?size=64"
+
+    featherIconsCDN = "https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.2/feather.min.js"
+    mermaidCDN = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs"
+
+    # Site color - dark/light/auto
+    mode = "light"
+
+    # Enable a table of contents:
+    # Either "static"/true, "floating", "both", or "none" (default: static)
+    # The floating TOC disappears on mobile and adds 200px vertical space
+    toc = "floating"
+    # Whether to truncate everything but H1/H2 headings if the last element in a TOC isn't visible. Enabled by default
+    enableTocTruncate = true
+
+    # Max tags
+    maxTags = 7
+
+    # Define words per minute to approximate reading time
+    wpm = 100
+
+    # Github base url
+    github = "https://github.com/manojbaishya/"
+
+    # For statistics, we can compare the total word count against a book of your choice
+    statisticsEnabled = true
+    referenceBookWords = 155000.0
+    referenceBook = "On the Origin of Species"
+    referenceAuthor = "Charles Darwin"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "Tags & Stats"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/manojbaishya/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/manojbaishya/"
+
+[[params.social]]
+name = "Substack"
+icon = "book-open"
+url = "https://substack.com/@manojbaishya"
+
+[taxonomies]
+   tag = "tags"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNos = false
+    lineNoStart = 1
+    lineNumbersInTable = true
+    noClasses = true
+    style = "lovelace"
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2

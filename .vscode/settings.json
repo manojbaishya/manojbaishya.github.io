@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "Baishya",
+        "Baishya's",
+        "Bioinformatics",
+        "isset",
+        "Manoj",
+        "Metaheuristics",
+        "Opcenter"
+    ],
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "metaheuristics",
+        "tabu"
+    ]
+}
