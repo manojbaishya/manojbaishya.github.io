@@ -7,7 +7,7 @@ tags = ["algorithms", "datastructures", "lowleveldesign"]
 
 ## Introduction
 
-Recently, I came across a very interesting problem in an online forum that deals with objects having a natural order (think `comparable` types in Go or C#'s `IComparable<T>`, etc)
+Recently, I came across a very interesting problem in an online forum that deals with streams of objects having a natural order (think `comparable` types in Go or C#'s `IComparable<T>`, etc)
 
 I had the opportunity to brainstorm a solution and am enthusiastic to share it with the community.
 
