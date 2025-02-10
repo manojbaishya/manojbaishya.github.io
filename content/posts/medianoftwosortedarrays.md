@@ -205,6 +205,6 @@ public class MedianOfTwoSortedArraysSolution
 ## Conclusion
 
 Eventually, this process is guaranteed to converge to the correct `SLCount`, since a partitioning of M always exists!
-The binary search on the smaller list ensures that the partitioning check runs in O(log(min(`N1`,`N2`))) time complexity, reducing overhead compared to direct merging."
+The binary search on the smaller list ensures that the partitioning check runs in `O(log(min(N1,N2)))` time complexity, reducing overhead compared to direct merging.
 
 If you are with me so far, thanks for reading!
