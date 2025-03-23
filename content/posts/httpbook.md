@@ -35,4 +35,8 @@ If you supplement the above knowledge with “DNS name resolution” and “SSL/
 
 And whenever I feel there is a need for more detail, the MDN documentation is an excellent and in-depth resource: https://developer.mozilla.org/en-US/docs/Web/HTTP
 
-Now, when I issue an HTTP request in Bruno, I appreciate the complicated infrastructure that make the message exchange possible, much of which is hidden from the user.
+Now, when I issue an HTTP request in Bruno, I really appreciate the complicated infrastructure that make the message exchange possible, much of which is hidden from the user.
+
+It is also mindblowing to know that rich applications has been and can be built over simple text-based messages. Such is the marvel of software abstraction.
+
+I also personally find learning theory more enjoyable after getting my hands dirty with practice. Top down learning is difficult but gives a more holistic context. Bonus points if the work pays money!
